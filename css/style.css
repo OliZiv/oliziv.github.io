@@ -1,0 +1,36 @@
+.title {
+  font-family: georgia;
+  
+}
+
+.source {
+  font-size:13px;
+  font-family: georgia;
+  color: #00b3b3;
+}
+  
+ .chart-wrapper {
+    width:800px;
+    position: relative;
+   border: 5px solid black;
+  }
+
+
+.chart {
+  width: 800px;
+  border: 2px
+}
+.stripe {
+  width: 24px;
+  /* instead of px we can put calc( 100% /139)*/ 
+  height: 24px;
+  border-radius: 12px;
+  display:inline-block;
+  margin: 2px
+}
+  
+  .label-right {
+    position: absolute;
+    right: 0;
+  }
+  
